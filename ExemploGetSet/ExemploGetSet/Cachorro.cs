@@ -80,5 +80,27 @@ namespace ExemploGetSet
             Raca = raca;
         }
 
+        // Get você pega a informação, set atribui;
+        // Obter informação guardada;
+        public string GetNome()
+        {
+            return Nome;
+        }
+
+        public string GetRaca()
+        {
+            return Raca;
+        }
+
+        public double GetAltura()
+        {
+            return Altura;
+        }
+
+        public double GetPeso()
+        {
+            return Peso;
+        }
+
     }
 }

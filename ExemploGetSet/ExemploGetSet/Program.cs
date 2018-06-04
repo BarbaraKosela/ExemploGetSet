@@ -11,10 +11,15 @@ namespace ExemploGetSet
         static void Main(string[] args)
         {
             Cachorro dogao = new Cachorro();
-            dogao.SetNome("");
+            dogao.SetNome("AAAAAAAAAAAAAAAAAAAAAAA");
             dogao.SetAltura(1.10);
             dogao.SetPeso(80);
-            dogao.SetRaca("");
+            dogao.SetRaca("AAAAAAAAAAAA");
+
+            Console.WriteLine(dogao.GetNome());
+            Console.WriteLine(dogao.GetAltura());
+            Console.WriteLine(dogao.GetPeso());
+            Console.WriteLine(dogao.GetRaca());
         }
     }
 }
