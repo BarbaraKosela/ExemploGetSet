@@ -57,10 +57,12 @@ namespace ExemploGetSet
                 throw new Exception("O peso não pode ser negativo");
             }
 
-            if (peso > 80)
+            if (peso > 150)
             {
-                throw new Exception("O peso não pode ultrapassar cinquenta quilos");
+                throw new Exception("O peso não pode ultrapassar cento e cinquenta quilos");
             }
+
+            Peso = peso;
         }
 
         public void SetRaca(string raca)
@@ -74,6 +76,8 @@ namespace ExemploGetSet
             {
                 throw new Exception("A raça não pode ultrapassar de quarenta caracteres");
             }
+
+            Raca = raca;
         }
 
     }
